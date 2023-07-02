@@ -10,3 +10,5 @@ node index.js
 ```
 
 It will store all the accounts created with email:token in accounts.txt
+
+# made by coolgoagle
