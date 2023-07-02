@@ -58,6 +58,7 @@ const signup = async (browser, email) => {
         await page.close()
         return null
     })
+    /*
     if (page.$('div[class="InfoText_infoText__Coy92 InfoText_error__OQwmg"]')) {
         const client = await page.target().createCDPSession();
         await client.send('Network.clearBrowserCookies');
@@ -65,6 +66,7 @@ const signup = async (browser, email) => {
         await page.close()
         return null
     }
+    */
     const cookies = await page.cookies()
 
     let poeToken
